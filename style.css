@@ -1,0 +1,50 @@
+body {
+  font-family: monospace;
+  background-color: #20826C;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+ text-align: center;
+ vertical-align: middle;
+}
+
+.button {
+  outline: none;
+  background-color: white;
+  border: none;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Add this line to vertically center the content */
+  cursor: pointer;
+  transition: all ease 0.15s;
+}
+
+svg {
+  width: 50%; /* Adjust the width of the SVG as per your preference */
+  fill: #20826C;
+}
+
+button:hover{
+  background-color: #20826C;
+  border: 3px solid white;
+  
+}
+
+.emoji{
+  font-size: 60px;
+}
+
+.emoji-name{
+  font-size: 30px;
+  margin-top: 30px;
+}
